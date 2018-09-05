@@ -1,7 +1,10 @@
+let customerNumber = 0;
+
 function takeANumber (currentLine) {
-  currentLine.push(newCustomer);
+  customerNumber++;
+  currentLine.push(customerNumber);
   const newLength = currentLine.length;
-  return `Welcome, ${newCustomer}. You are number ${newLength} in line.`
+  return `Welcome. You are ticket number ${customerNumber}. And you are number ${newLength} in line.`
   
 }
 
