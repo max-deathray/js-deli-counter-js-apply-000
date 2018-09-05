@@ -1,4 +1,4 @@
-function takeANumber (currentLine, newCustomer) {
+function takeANumber (currentLine) {
   currentLine.push(newCustomer);
   const newLength = currentLine.length;
   return `Welcome, ${newCustomer}. You are number ${newLength} in line.`
